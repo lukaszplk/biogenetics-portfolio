@@ -1,0 +1,34 @@
+##gff-version 3
+##sequence-region chr1 1 248956422
+##sequence-region chr7 1 159345973
+##sequence-region chr11 1 135086622
+##sequence-region chr17 1 83257441
+##source-version Ensembl 109
+# Annotation of selected disease-relevant genes — GRCh38/hg38
+chr7	Ensembl	gene	117480025	117668665	.	+	.	ID=gene:ENSG00000001626;Name=CFTR;biotype=protein_coding;description=CF transmembrane conductance regulator
+chr7	Ensembl	mRNA	117480025	117668665	.	+	.	ID=transcript:ENST00000003084;Parent=gene:ENSG00000001626;Name=CFTR-201
+chr7	Ensembl	exon	117480025	117480198	.	+	.	ID=exon:ENST00000003084:1;Parent=transcript:ENST00000003084;exon_number=1
+chr7	Ensembl	exon	117528269	117528383	.	+	.	ID=exon:ENST00000003084:2;Parent=transcript:ENST00000003084;exon_number=2
+chr7	Ensembl	exon	117534256	117534317	.	+	.	ID=exon:ENST00000003084:3;Parent=transcript:ENST00000003084;exon_number=3
+chr7	Ensembl	exon	117540214	117540298	.	+	.	ID=exon:ENST00000003084:4;Parent=transcript:ENST00000003084;exon_number=4
+chr7	Ensembl	exon	117548580	117548779	.	+	.	ID=exon:ENST00000003084:10;Parent=transcript:ENST00000003084;exon_number=10;Note=contains_deltaF508_site
+chr7	Ensembl	CDS	117480122	117480198	.	+	0	ID=CDS:ENST00000003084:1;Parent=transcript:ENST00000003084
+chr17	Ensembl	gene	43044295	43170245	.	-	.	ID=gene:ENSG00000012048;Name=BRCA1;biotype=protein_coding;description=BRCA1 DNA repair associated
+chr17	Ensembl	mRNA	43044295	43170245	.	-	.	ID=transcript:ENST00000357654;Parent=gene:ENSG00000012048;Name=BRCA1-201
+chr17	Ensembl	exon	43170245	43170327	.	-	.	ID=exon:ENST00000357654:1;Parent=transcript:ENST00000357654;exon_number=1
+chr17	Ensembl	exon	43124017	43124115	.	-	.	ID=exon:ENST00000357654:2;Parent=transcript:ENST00000357654;exon_number=2
+chr17	Ensembl	exon	43115726	43115779	.	-	.	ID=exon:ENST00000357654:3;Parent=transcript:ENST00000357654;exon_number=3
+chr17	Ensembl	exon	43106456	43106533	.	-	.	ID=exon:ENST00000357654:4;Parent=transcript:ENST00000357654;exon_number=4
+chr17	Ensembl	CDS	43124017	43124115	.	-	0	ID=CDS:ENST00000357654:2;Parent=transcript:ENST00000357654
+chr11	Ensembl	gene	5225464	5229395	.	-	.	ID=gene:ENSG00000244734;Name=HBB;biotype=protein_coding;description=hemoglobin subunit beta
+chr11	Ensembl	mRNA	5225464	5229395	.	-	.	ID=transcript:ENST00000335295;Parent=gene:ENSG00000244734;Name=HBB-201
+chr11	Ensembl	exon	5229096	5229395	.	-	.	ID=exon:ENST00000335295:1;Parent=transcript:ENST00000335295;exon_number=1
+chr11	Ensembl	exon	5226929	5227071	.	-	.	ID=exon:ENST00000335295:2;Parent=transcript:ENST00000335295;exon_number=2
+chr11	Ensembl	exon	5225464	5225726	.	-	.	ID=exon:ENST00000335295:3;Parent=transcript:ENST00000335295;exon_number=3
+chr11	Ensembl	CDS	5226929	5227071	.	-	0	ID=CDS:ENST00000335295:2;Parent=transcript:ENST00000335295;Note=sickle_cell_anemia_codon_6_site
+chr17	Ensembl	gene	7661779	7687538	.	-	.	ID=gene:ENSG00000141510;Name=TP53;biotype=protein_coding;description=tumor protein p53
+chr17	Ensembl	mRNA	7661779	7687538	.	-	.	ID=transcript:ENST00000269305;Parent=gene:ENSG00000141510;Name=TP53-201
+chr17	Ensembl	exon	7687377	7687538	.	-	.	ID=exon:ENST00000269305:1;Parent=transcript:ENST00000269305;exon_number=1
+chr17	Ensembl	exon	7676594	7676622	.	-	.	ID=exon:ENST00000269305:2;Parent=transcript:ENST00000269305;exon_number=2
+chr17	Ensembl	exon	7674859	7675994	.	-	.	ID=exon:ENST00000269305:3;Parent=transcript:ENST00000269305;exon_number=3;Note=DNA_binding_domain
+chr17	Ensembl	CDS	7674859	7675994	.	-	0	ID=CDS:ENST00000269305:3;Parent=transcript:ENST00000269305

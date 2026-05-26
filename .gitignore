@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Results (generated, not committed)
+**/results/*.png
+**/results/*.csv
+**/results/*.tsv
+
+# Data (large files)
+**/data/*.vcf
+**/data/*.bam
+**/data/*.fastq
+**/data/*.fastq.gz
+**/data/*.bed
+
+# OS
+.DS_Store
+Thumbs.db
