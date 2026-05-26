@@ -20,9 +20,28 @@ Physicochemical analysis and clustering of human protein sequences using Biopyth
 | Insulin | NP_000198.1 | Glucose metabolism hormone |
 | β-Actin | NP_001092.1 | Cytoskeletal structural protein |
 
+## Plots
+
+### Physicochemical descriptor heatmap
+
+![Descriptor heatmap](assets/descriptor_heatmap.png)
+
+### PCA clustering
+
+![PCA clusters](assets/pca_clusters.png)
+
+### Molecular weight vs isoelectric point
+
+![MW vs pI](assets/mw_vs_pi.png)
+
+### Amino acid composition
+
+![AA composition](assets/aa_composition.png)
+
 ## Usage
 
 ```bash
+pip install numpy pandas matplotlib seaborn scikit-learn biopython
 python protein_analysis.py
 ```
 

@@ -19,6 +19,9 @@ build/
 **/results/*.csv
 **/results/*.tsv
 
+# assets/ is committed (screenshots for READMEs)
+!**/assets/*.png
+
 # Data (large files)
 **/data/*.vcf
 **/data/*.bam

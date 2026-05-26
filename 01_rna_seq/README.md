@@ -17,9 +17,14 @@ Mimics the core steps of real-world DESeq2/edgeR pipelines, implemented in Pytho
 - `results/volcano_plot.png` — publication-ready volcano plot
 - `results/de_results.csv` — ranked differential expression table
 
+### Volcano plot
+
+![Volcano plot](assets/volcano_plot.png)
+
 ## Run
 
 ```bash
+pip install numpy pandas scipy matplotlib seaborn statsmodels
 python rna_seq_de_analysis.py
 ```
 

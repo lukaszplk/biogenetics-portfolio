@@ -15,9 +15,18 @@ Produces the two standard publication figures: Manhattan plot and QQ plot.
 - `results/manhattan_plot.png` — chromosome-level association landscape
 - `results/qq_plot.png` — p-value distribution quality control plot
 
+### Manhattan plot
+
+![Manhattan plot](assets/manhattan_plot.png)
+
+### QQ plot
+
+![QQ plot](assets/qq_plot.png)
+
 ## Run
 
 ```bash
+pip install numpy pandas matplotlib seaborn scipy
 python gwas_visualization.py
 ```
 

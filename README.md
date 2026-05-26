@@ -1,6 +1,8 @@
 # Biogenetics Portfolio
 
-A collection of bioinformatics projects and analyses targeting real-world problems in genomics, drug discovery, and molecular biology. Built with Python, R, and Jupyter Notebooks.
+[![CI](https://github.com/lukaszplk/biogenetics-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/lukaszplk/biogenetics-portfolio/actions/workflows/ci.yml)
+
+A collection of bioinformatics projects and analyses targeting real-world problems in genomics, drug discovery, and molecular biology. Built with Python and Jupyter Notebooks.
 
 ---
 
@@ -8,11 +10,17 @@ A collection of bioinformatics projects and analyses targeting real-world proble
 
 | # | Topic | Tools | Status |
 |---|-------|-------|--------|
-| [01](./01_rna_seq/) | RNA-seq Differential Expression Analysis | Python, DESeq2-style, seaborn | ✅ Complete |
-| [02](./02_drug_discovery/) | ML-Based Drug Activity Prediction (QSAR) | scikit-learn, RDKit, pandas | ✅ Complete |
+| [01](./01_rna_seq/) | RNA-seq Differential Expression Analysis | Python, scipy, seaborn, statsmodels | ✅ Complete |
+| [02](./02_drug_discovery/) | ML-Based Drug Activity Prediction (QSAR) | scikit-learn, pandas | ✅ Complete |
 | [03](./03_population_genetics/) | GWAS Manhattan & QQ Plots | Python, matplotlib, statsmodels | ✅ Complete |
-| [04](./04_protein_analysis/) | Protein Sequence Feature Extraction | Biopython, pandas | 🔧 In Progress |
+| [04](./04_protein_analysis/) | Protein Sequence Feature Extraction | Biopython, pandas, scikit-learn | ✅ Complete |
 | [05](./05_single_cell/) | Single-Cell RNA-seq Clustering | scanpy, UMAP, Leiden | 🔧 In Progress |
+
+### Example plots
+
+| RNA-seq Volcano | GWAS Manhattan | Protein PCA |
+|:---:|:---:|:---:|
+| ![Volcano](01_rna_seq/assets/volcano_plot.png) | ![Manhattan](03_population_genetics/assets/manhattan_plot.png) | ![PCA](04_protein_analysis/assets/pca_clusters.png) |
 
 ---
 
@@ -30,7 +38,7 @@ A collection of bioinformatics projects and analyses targeting real-world proble
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/biogenetics-portfolio.git
+git clone https://github.com/lukaszplk/biogenetics-portfolio.git
 cd biogenetics-portfolio
 
 # Create conda environment

@@ -16,9 +16,18 @@ drug bioactivity from molecular descriptors. A core workflow in computational dr
 - `results/feature_importance.png` — top predictive molecular features
 - `results/model_comparison.csv` — AUC scores for all models
 
+### ROC curves
+
+![ROC curves](assets/roc_curves.png)
+
+### Feature importance
+
+![Feature importance](assets/feature_importance.png)
+
 ## Run
 
 ```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
 python qsar_drug_activity.py
 ```
 
