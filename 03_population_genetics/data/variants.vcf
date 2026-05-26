@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##fileDate=20240101
+##source=GWAS_simulation
+##reference=GRCh38
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene name">
+##INFO=<ID=CONSEQUENCE,Number=1,Type=String,Description="Variant consequence">
+##INFO=<ID=CLNSIG,Number=1,Type=String,Description="ClinVar significance">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr13	32890607	rs80357906	A	T	99	PASS	AF=0.001;GENE=BRCA2;CONSEQUENCE=missense_variant;CLNSIG=Pathogenic
+chr13	32900637	rs28897743	G	A	99	PASS	AF=0.0005;GENE=BRCA2;CONSEQUENCE=stop_gained;CLNSIG=Pathogenic
+chr17	41246535	rs28897672	A	G	99	PASS	AF=0.002;GENE=BRCA1;CONSEQUENCE=missense_variant;CLNSIG=Likely_pathogenic
+chr17	41197938	rs80357382	C	T	88	PASS	AF=0.0008;GENE=BRCA1;CONSEQUENCE=splice_acceptor_variant;CLNSIG=Pathogenic
+chr7	117548729	rs113993960	A	T	75	PASS	AF=0.01;GENE=CFTR;CONSEQUENCE=missense_variant;CLNSIG=Pathogenic
+chr11	5246925	rs33950507	C	A	92	PASS	AF=0.005;GENE=HBB;CONSEQUENCE=missense_variant;CLNSIG=Pathogenic
+chrX	153296800	rs104894913	G	A	80	PASS	AF=0.0001;GENE=F8;CONSEQUENCE=missense_variant;CLNSIG=Pathogenic
+chr2	166231756	rs1801282	C	G	60	PASS	AF=0.12;GENE=PPARG;CONSEQUENCE=missense_variant;CLNSIG=Benign
+chr19	11200038	rs429358	T	C	95	PASS	AF=0.15;GENE=APOE;CONSEQUENCE=missense_variant;CLNSIG=Risk_factor
+chr1	230845794	rs1042522	C	G	85	PASS	AF=0.38;GENE=TP53;CONSEQUENCE=missense_variant;CLNSIG=Benign

@@ -22,12 +22,17 @@ build/
 # assets/ is committed (screenshots for READMEs)
 !**/assets/*.png
 
-# Data (large files)
-**/data/*.vcf
+# Data (large files — excluded by default)
 **/data/*.bam
-**/data/*.fastq
 **/data/*.fastq.gz
+
+# Exclude real-run outputs but allow small sample files checked into the repo
+**/data/*.vcf
+!**/data/variants.vcf
+**/data/*.fastq
+!**/data/sample_reads.fastq
 **/data/*.bed
+!**/data/regions.bed
 
 # OS
 .DS_Store
